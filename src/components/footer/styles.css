@@ -1,0 +1,56 @@
+.footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	background-color: #111111;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 2em;
+	margin-top: 5rem;
+}
+
+.box-left {
+	margin: 1rem;
+	padding-left: 8rem;
+}
+
+.box-mid {
+	margin: 1rem;
+}
+
+.footer h4 {
+	margin-block-start: 0;
+}
+
+.contact {
+	display: inline-flex;
+	color: white;
+}
+.number_icon {
+	font-size: 20px;
+}
+.contact:hover {
+	color: gray;
+	cursor: pointer;
+}
+.box-right {
+	padding-right: 8rem;
+}
+
+.sm-foot {
+	display: flex;
+}
+
+.icon {
+	color: white;
+	padding: 6px;
+}
+.icon:hover {
+	color: gray;
+	cursor: pointer;
+}
+ul {
+	list-style: none;
+}

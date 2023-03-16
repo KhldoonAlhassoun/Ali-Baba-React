@@ -1,0 +1,152 @@
+.header {
+	background: rgb(221, 132, 15);
+	position: sticky;
+	top: 0px;
+	height: 60px;
+	z-index: 999;
+	min-height: 60px;
+	width: 100%;
+}
+nav {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: none;
+	min-height: 100px;
+}
+
+nav .sm li:first-child {
+	padding: 0 0 0 0;
+}
+nav li {
+	padding-left: 25px;
+}
+ul,
+li,
+a,
+button {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+}
+nav {
+	background: rgb(221, 132, 15);
+	text-align: center;
+}
+.top-links {
+	padding-left: 25px;
+}
+.logo {
+	grid-column: 2/2;
+	grid-row: 1/2;
+	background: rgb(221, 132, 15);
+	cursor: pointer;
+	padding-top: 21px;
+	min-width: 30%;
+}
+.navLinks {
+	list-style: none;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	padding-left: 22px;
+}
+.navLinks li {
+	display: inline-block;
+}
+.navLinks a {
+	transition: all 0.3s ease 0s;
+}
+.navLinks a:hover {
+	color: whitesmoke;
+}
+.sm {
+	display: inline-block;
+	padding-top: 2%;
+	grid-row: 1/1;
+	list-style: none;
+	top: 0px;
+	padding-left: 0px;
+}
+.sm li {
+	display: inline-block;
+	cursor: pointer;
+}
+.sm a {
+	transition: all 0.3s ease 0s;
+}
+.sm a:hover {
+	color: whitesmoke;
+}
+.fa-facebook {
+	font-size: 30px;
+	width: 30px;
+	text-decoration: none;
+	border-radius: 50%;
+}
+.fa-facebook:hover {
+	color: whitesmoke;
+}
+.fa-instagram {
+	font-size: 30px;
+	width: 30px;
+	text-decoration: none;
+	border-radius: 50%;
+}
+.fa-instagram:hover {
+	color: whitesmoke;
+}
+.fa-phone {
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.fa-phone:hover {
+	color: whitesmoke;
+}
+.toggle {
+	display: flex;
+	font-size: 30px;
+	color: black;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+.toggle a:hover {
+	background-color: whitesmoke;
+}
+.cart {
+	align-self: center;
+}
+.cart-button {
+	list-style: none;
+	font-size: 20px;
+	padding-left: 10px;
+}
+.cart-button:hover {
+	color: whitesmoke;
+}
+.cart-button li {
+	padding: 0px 3px;
+	cursor: pointer;
+}
+.cart a {
+	transition: all 0.3s ease 0s;
+}
+.fa-shopping-cart {
+	text-decoration: none;
+	border-radius: 50%;
+}
+.cart-page {
+	font-size: 16;
+}
+.cart-icon {
+	font-size: 30px;
+}
