@@ -1,14 +1,14 @@
 .left-container {
-	width: 250px;
+	width: 270px;
 	border-radius: 8px;
 	overflow: hidden;
-	padding-top: 60px;
+	margin-top: 2rem;
 }
 .accordion-menu {
 	background-color: #222222;
 	overflow: hidden;
-	transition: max-height 0.3s;
-	min-height: 60rem;
+	justify-content: center;
+	border: 1px solid #222222;
 }
 .accordion-menu li {
 	color: white;
@@ -21,13 +21,22 @@
 	display: block;
 	padding: 16px 20px;
 	background-color: rgb(221, 132, 15);
-	position: relative;
+	min-height: 3rem;
+	cursor: pointer;
+}
+.title {
+	padding-top: 10px;
 }
 .accordion-item {
-	border-top: 1px solid rgb(221, 132, 15);
 	overflow: hidden;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
 	font-size: 20px;
 	text-decoration: none;
+}
+.accordion-list {
+	display: none;
+}
+.accordion-list.expanded {
+	display: block;
 }

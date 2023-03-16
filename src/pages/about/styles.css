@@ -4,12 +4,11 @@
 	justify-content: center;
 }
 .left-sidebar {
-	padding-top: 5rem;
+	padding-top: 2rem;
 	display: block;
-	width: 40%;
-	min-height: 60rem;
+	min-height: 22rem;
 	max-width: 20rem;
-	margin-left: 6rem;
+	margin-left: 2rem;
 }
 .about-container {
 	padding-left: 5rem;
