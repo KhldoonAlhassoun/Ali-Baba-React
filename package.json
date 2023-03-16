@@ -1,7 +1,7 @@
 {
 	"name": "ali-baba-react",
 	"version": "0.1.0",
-	"homepage": "https://khldoonalhassoun.github.io/Ali-Baba-React",
+	"homepage": " https://khldoonalhassoun.github.io/Ali-Baba-React/",
 	"private": true,
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^6.3.0",
