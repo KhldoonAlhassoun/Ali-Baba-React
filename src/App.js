@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./pages/home";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Root from "./routes/root";
 import AboutIndex from "./pages/about";
 import ErrorPage from "./pages/errorPage";
@@ -8,7 +8,7 @@ import Menu from "./pages/menu";
 
 function App() {
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<Routes>
 				<Route path="/" element={<Root />}>
 					<Route index element={<Home />} />
@@ -17,7 +17,7 @@ function App() {
 					<Route path="*" element={<ErrorPage />} />
 				</Route>
 			</Routes>
-		</BrowserRouter>
+		</HashRouter>
 	);
 }
 
