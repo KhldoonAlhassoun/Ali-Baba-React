@@ -1,7 +1,7 @@
 {
 	"name": "ali-baba-react",
 	"version": "0.1.0",
-	"homepage": "https://ali-baba-react-j6il1qb1q-khldoonalhassoun.vercel.app",
+	"homepage": ".",
 	"private": true,
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^6.3.0",
